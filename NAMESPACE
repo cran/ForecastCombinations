@@ -1,0 +1,4 @@
+exportPattern("^[[:alpha:]]+")
+importFrom("stats", "lm", "logLik")
+importFrom("utils", "combn", "setTxtProgressBar", "txtProgressBar")
+import(quantreg, quadprog)
